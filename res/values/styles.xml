@@ -182,6 +182,11 @@
         <item name="android:textColorHint">@color/contacts_action_bar_text_color_hint</item>
         <item name="android:textColor">@color/contacts_action_bar_text_color</item>
         <item name="android:popupMenuStyle">@android:style/Widget.Material.Light.PopupMenu</item>
+
+    <style name="ContactsActionBarTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColorHint">@color/contacts_action_bar_text_color_hint</item>
+        <item name="android:textColor">@color/contacts_action_bar_text_color</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>
         <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
     </style>
 
